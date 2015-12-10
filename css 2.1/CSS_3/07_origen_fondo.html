@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Origen del Fondo</title>
+	<style>
+      section {
+      	background: #ccc url(Imgs/origen.jpg) no-repeat;
+      	border: 40px solid transparent;
+      	padding: 40px;
+      	margin: 10px;
+        height: 220px;
+      	width: 280;
+      }
+      .org1 { background-origin: border-box; }
+      .org2 { background-origin: padding-box; }
+      .org3 { background-origin: content-box; }
+	</style>
+</head>
+<body>
+	<h1>Origen del Fondo</h1>
+	<hr>
+	<section class="org1">
+		<h3>background-origin: border-box;</h3>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+	</section>
+	<section class="org2">
+		<h3>background-origin: padding-box;</h3>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+	</section>
+	<section class="org3">
+		<h3>background-origin: content-box;</h3>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+</body>
+</html>
